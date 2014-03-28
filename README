@@ -1,0 +1,21 @@
+
+
+'manifest.json' defines extension properties like name, description, extension type...
+I made a simple browseraction extension that dropsdown from the bowser window.
+
+The html and script in 'browseraction/' is pretty much it. no style, no nothing...
+poopup.js sends a JSON object to some API containing the user defined url, and resieves a string containing the new url.
+
+I have set up a simple node server (in 'server/server.js') that listens to localhost:3000/magic, and returns a new url when it receives {url: ...} post. 
+
+
+to try it out:
+1) start the node server - node ../server/server.js
+2) in chrome go to - chrome://extensions/
+	tic 'Developer mode'
+	click 'Load unpacked extension' and browse to chromeEx folder 
+
+
+
+PS. ved forresten ikke hvorfor det blev på engelsk...
+

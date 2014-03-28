@@ -1,0 +1,40 @@
+
+.dropdown-content{
+	
+	width: 400px;
+}
+/*
+.firelink-generated{
+	margin: 20px;
+}
+.firelink-thumb{
+	display:table;
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-style:solid;
+}
+
+#copy-link{
+	display: block;
+	float: left;
+}
+#return-URL{
+	width: 50%;
+	float: left;
+	text-align: center;
+
+}
+*/
+.onWindowLoad{
+	
+float: right;
+font-size: 21px;
+font-weight: bold;
+line-height: 1;
+color: #000;
+text-shadow: 0 1px 0 #fff;
+opacity: .2;
+filter: alpha(opacity=20);
+
+}
